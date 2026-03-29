@@ -8,12 +8,12 @@ public class largest {
         double b=sc.nextDouble();
         System.out.print("Enter the value c:");
         double c=sc.nextDouble();
-        if(a>b && a>c){
-        System.out.print("a is the largest:");
-        }else if(b>c && b>a){
-        System.out.print("b is the largest:");}
+        if(a>=b && a>=c){
+        System.out.print(a+" a is the largest:");
+        }else if(b>=c && b>=a){
+        System.out.print(b+" b is the largest:");}
         else
-        System.out.print("c is the greatest:");
+        System.out.print(c+" c is the largest:");
         }
 } 
 }

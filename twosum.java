@@ -12,7 +12,6 @@ public class twosum {
             int input = sc.nextInt();
             arr.add(input);
         }
-        System.out.print(arr);
         for (int i=0;i<size;i++) {
             for (int j=i+1;j<size;j++){
                 if(arr.get(i)+arr.get(j)==a){
